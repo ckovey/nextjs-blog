@@ -15,7 +15,7 @@ export default function Cart() {
             <li><a href="/">Home</a></li>
             <li><a href="/viewer">Viewer</a></li>
             <li><a href="/cart">Cart</a></li>
-            <li><a href="/Product">Page</a></li>
+            <li><a href="/product">Product</a></li>
           </ul>
         </div>
 
