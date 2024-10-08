@@ -90,3 +90,22 @@
     flex-direction: column;
   }
 }
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: darkgray;
+  overflow: hidden;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.nav li a {
+  background-color: #0070f3;
+  color:whitesmoke;
+  padding: 8px;
+  border-radius: 4px;
+}
