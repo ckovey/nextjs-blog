@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function Page() {
+export default function Product() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Some Page</title>
+        <title>Some Product</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,7 +15,7 @@ export default function Page() {
             <li><a href="/">Home</a></li>
             <li><a href="/viewer">Viewer</a></li>
             <li><a href="/cart">Cart</a></li>
-            <li><a href="/page">Page</a></li>
+            <li><a href="/product">Product</a></li>
           </ul>
         </div>
 

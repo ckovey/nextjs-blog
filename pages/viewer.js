@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import dynamic from "next/dynamic";
+import Syndeca from "../components/syndeca";
 
 export default function Viewer() {
   return (
@@ -15,13 +17,14 @@ export default function Viewer() {
             <li><a href="/">Home</a></li>
             <li><a href="/viewer">Viewer</a></li>
             <li><a href="/cart">Cart</a></li>
-            <li><a href="/page">Page</a></li>
+            <li><a href="/Product">Page</a></li>
           </ul>
         </div>
 
         <h1 className={styles.title}>
-          Welcome to Viewer
+          Syndeca Viewer
         </h1>
+        <Syndeca></Syndeca>
 
       </main>
 
