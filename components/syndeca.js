@@ -5,7 +5,7 @@ export default function Syndeca() {
     <div className={styles.syndeca}>
       <div id={'syndeca'}></div>
       <Script
-        src="//viewer.syndeca.com/scripts/syndeca-embed.js"
+        src="//viewer.syndeca.com/scripts/syndeca-embed-tcp.js"
         data-guide-key="FB41283F-0E88-4C88-B9F7-843DC7EC2156"
         data-log="true"
       ></Script>
