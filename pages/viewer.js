@@ -1,30 +1,32 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import dynamic from "next/dynamic";
 import Syndeca from "../components/syndeca";
+import Link from "next/link";
 
 export default function Viewer() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Viewer</title>
+        <title>Born to Shine Viewer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <div className={styles.nav}>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/viewer">Viewer</a></li>
-            <li><a href="/cart">Cart</a></li>
-            <li><a href="/product">Product</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/campaign">Campaign</Link></li>
+            <li><Link href="/viewer">Born to Shine</Link></li>
+            <li><Link href="/viewer2">Western</Link></li>
+            <li><Link href="/cart">Cart</Link></li>
+            <li><Link href="/product">Product</Link></li>
           </ul>
         </div>
 
         <h1 className={styles.title}>
-          Syndeca Viewer
+          Born to Shine Syndeca Viewer
         </h1>
-        <Syndeca></Syndeca>
+        <Syndeca catalogKey={'born-to-shine-outfit-ideas'}></Syndeca>
 
       </main>
 

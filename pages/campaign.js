@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Syndeca from "../components/syndeca";
 import Link from "next/link";
 
-export default function Cart() {
+export default function Viewer() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Shopping Cart</title>
+        <title>Campaign Screen</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -23,39 +24,10 @@ export default function Cart() {
         </div>
 
         <h1 className={styles.title}>
-          Shopping Cart
+          Campaign Screen
         </h1>
+        <Syndeca></Syndeca>
 
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, cupiditate delectus dolor dolores id
-          itaque laboriosam libero maiores nisi omnis pariatur perspiciatis placeat, quod ratione sequi soluta suscipit
-          tempore.
-        </p>
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, cupiditate delectus dolor dolores id
-          itaque laboriosam libero maiores nisi omnis pariatur perspiciatis placeat, quod ratione sequi soluta suscipit
-          tempore.
-        </p>
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, cupiditate delectus dolor dolores id
-          itaque laboriosam libero maiores nisi omnis pariatur perspiciatis placeat, quod ratione sequi soluta suscipit
-          tempore.
-        </p>
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, cupiditate delectus dolor dolores id
-          itaque laboriosam libero maiores nisi omnis pariatur perspiciatis placeat, quod ratione sequi soluta suscipit
-          tempore.
-        </p>
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, cupiditate delectus dolor dolores id
-          itaque laboriosam libero maiores nisi omnis pariatur perspiciatis placeat, quod ratione sequi soluta suscipit
-          tempore.
-        </p>
-        <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem, cupiditate delectus dolor dolores id
-          itaque laboriosam libero maiores nisi omnis pariatur perspiciatis placeat, quod ratione sequi soluta suscipit
-          tempore.
-        </p>
       </main>
 
       <footer>

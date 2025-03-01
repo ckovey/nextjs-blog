@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from "next/link";
 
 export default function Product() {
   return (
@@ -12,10 +13,12 @@ export default function Product() {
       <main>
         <div className={styles.nav}>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/viewer">Viewer</a></li>
-            <li><a href="/cart">Cart</a></li>
-            <li><a href="/product">Product</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/campaign">Campaign</Link></li>
+            <li><Link href="/viewer">Born to Shine</Link></li>
+            <li><Link href="/viewer2">Western</Link></li>
+            <li><Link href="/cart">Cart</Link></li>
+            <li><Link href="/product">Product</Link></li>
           </ul>
         </div>
 
